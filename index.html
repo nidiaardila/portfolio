@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio de Nidia Ardila, Full-Stack JavaScript Developer especializada en Angular, Angular Material, TypeScript, APIs REST y Node.js." />
+  <title>Nidia Ardila | Full-Stack JavaScript Developer</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top portfolio-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">
+        <span class="brand-mark">NA</span>
+        <span>Nidia Ardila</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-primary btn-sm rounded-pill px-3" href="#proyectos">
+              Ver portfolio
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="inicio" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center min-vh-100 pt-5">
+        <div class="col-lg-7">
+          <span class="section-pill mb-3">
+            <i class="bi bi-stars"></i>
+            Full-Stack JavaScript Developer
+          </span>
+
+          <h1 class="hero-title">
+            Hola, soy <span>Nidia Ardila</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Desarrollo aplicaciones web modernas con Angular, TypeScript y Angular Material, integrando APIs REST y bases de datos. Me enfoco en crear interfaces limpias, responsive y fáciles de usar.
+          </p>
+
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#proyectos" class="btn btn-primary btn-lg rounded-pill px-4">
+              <i class="bi bi-grid-3x3-gap me-2"></i>
+              Ver proyectos
+            </a>
+            <a href="#contacto" class="btn btn-outline-light btn-lg rounded-pill px-4">
+              <i class="bi bi-send me-2"></i>
+              Contacto
+            </a>
+          </div>
+
+          <div class="hero-stats mt-5">
+            <div>
+              <strong>Angular</strong>
+              <span>Frontend moderno</span>
+            </div>
+            <div>
+              <strong>APIs REST</strong>
+              <span>Integración de datos</span>
+            </div>
+            <div>
+              <strong>Responsive</strong>
+              <span>Diseño adaptable</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 d-none d-lg-block">
+          <div class="hero-card">
+            <div class="hero-card-icon">
+              <i class="bi bi-person-workspace"></i>
+            </div>
+            <h2>Construyendo soluciones web</h2>
+            <p>
+              Proyectos con Angular, JavaScript, Bootstrap, Material Design, consumo de APIs y buenas prácticas de estructura.
+            </p>
+            <div class="hero-code-box">
+              <span class="code-dot"></span>
+              <span class="code-dot"></span>
+              <span class="code-dot"></span>
+              <code>ng serve --open</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi" class="section-padding about-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5">
+          <span class="section-pill">
+            <i class="bi bi-person-heart"></i>
+            Sobre mí
+          </span>
+          <h2 class="section-title mt-3">Desarrolladora enfocada en aprender, construir y mejorar</h2>
+        </div>
+
+        <div class="col-lg-7">
+          <p class="section-text">
+            Soy Full-Stack JavaScript Developer con base en desarrollo de soluciones web dinámicas. Trabajo con tecnologías front-end como Angular, Angular Material, PrimeNG y Bootstrap; y con tecnologías back-end como Node.js, Express y SQL.
+          </p>
+          <p class="section-text mb-0">
+            Me enfoco en crear aplicaciones web modernas, integrando APIs, diseñando interfaces eficientes y organizando proyectos reales con buenas prácticas. Soy una profesional organizada, proactiva y con gran capacidad de aprendizaje.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="section-padding projects-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-pill mx-auto">
+          <i class="bi bi-code-square"></i>
+          Proyectos
+        </span>
+        <h2 class="section-title mt-3">Proyectos destacados</h2>
+        <p class="section-description mx-auto">
+          Una selección de aplicaciones creadas para practicar Angular, JavaScript, APIs, diseño responsive y lógica de negocio.
+        </p>
+      </div>
+
+      <div class="row g-4 projects-grid">
+        <!-- Para agregar un nuevo proyecto: copia una card completa y pégala aquí arriba. Las demás bajarán automáticamente. -->
+
+        <!-- Recipe Explorer -->
+<div class="col-md-6 col-xl-4">
+  <article class="project-card featured-project h-100">
+    <div class="project-image-wrapper">
+      <img src="./images/recipe_explorer.png" class="project-image" alt="Recipe Explorer Angular app" />
+      <span class="featured-badge">Proyecto destacado</span>
+    </div>
+
+    <div class="project-content">
+      <div class="project-icon">
+        <i class="bi bi-egg-fried"></i>
+      </div>
+
+      <h3>Recipe Explorer</h3>
+
+      <p>
+        Aplicación desarrollada con Angular 20 y Angular Material para explorar recetas usando TheMealDB API. Incluye búsqueda, filtros por categoría y cocina/origen, detalle de receta, ingredientes, preparación paso a paso, receta aleatoria y favoritos con localStorage.
+      </p>
+
+      <div class="tech-list">
+        <span>Angular 20</span>
+        <span>TypeScript</span>
+        <span>Angular Material</span>
+        <span>SCSS</span>
+        <span>Signals</span>
+        <span>RxJS</span>
+        <span>TheMealDB API</span>
+        <span>localStorage</span>
+      </div>
+
+      <div class="project-actions">
+        <a href="https://nidiaardila.github.io/recipe-explorer/" target="_blank" class="btn btn-primary rounded-pill">
+          <i class="bi bi-box-arrow-up-right me-2"></i>Demo
+        </a>
+
+        <a href="https://github.com/nidiaardila/recipe-explorer" target="_blank" class="btn btn-outline-light rounded-pill">
+          <i class="bi bi-github me-2"></i>Código
+        </a>
+      </div>
+    </div>
+  </article>
+</div>
+
+
+        <!-- World Explorer -->
+        <div class="col-md-6 col-xl-4">
+          <article class="project-card featured-project h-100">
+            <div class="project-image-wrapper">
+              <img src="./images/world_explorer.png" class="project-image" alt="World Explorer Angular app" />
+              <span class="featured-badge">Proyecto destacado</span>
+            </div>
+            <div class="project-content">
+              <div class="project-icon"><i class="bi bi-globe-americas"></i></div>
+              <h3>World Explorer</h3>
+              <p>
+                App en Angular 20 y Angular Material para explorar países con REST Countries API. Incluye filtros, ordenamiento, detalle, favoritos, Signals y responsive.
+              </p>
+              <div class="tech-list">
+                <span>Angular 20</span>
+                <span>TypeScript</span>
+                <span>Angular Material</span>
+                <span>Signals</span>
+                <span>RxJS</span>
+                <span>REST API</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://nidiaardila.github.io/world-explorer/" target="_blank" class="btn btn-primary rounded-pill">
+                  <i class="bi bi-box-arrow-up-right me-2"></i>Demo
+                </a>
+                <a href="https://github.com/nidiaardila/world-explorer" target="_blank" class="btn btn-outline-light rounded-pill">
+                  <i class="bi bi-github me-2"></i>Código
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Administración de Alumnos -->
+        <div class="col-md-6 col-xl-4">
+          <article class="project-card h-100">
+            <div class="project-image-wrapper">
+              <img src="./images/alumnos.png" class="project-image" alt="Administración de alumnos" />
+            </div>
+            <div class="project-content">
+              <div class="project-icon"><i class="bi bi-mortarboard"></i></div>
+              <h3>Administración de Alumnos</h3>
+              <p>
+                Aplicación Angular para crear, editar y eliminar alumnos y cursos, conectada a MockAPI para administrar datos.
+              </p>
+              <div class="tech-list">
+                <span>Angular</span>
+                <span>TypeScript</span>
+                <span>Angular Material</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/nidiaardila/admin-alumnos-angular" target="_blank" class="btn btn-outline-light rounded-pill">
+                  <i class="bi bi-github me-2"></i>Código
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Simulador -->
+        <div class="col-md-6 col-xl-4">
+          <article class="project-card h-100">
+            <div class="project-image-wrapper">
+              <img src="./images/simulador_creditos.png" class="project-image" alt="Simulador de créditos" />
+            </div>
+            <div class="project-content">
+              <div class="project-icon"><i class="bi bi-calculator"></i></div>
+              <h3>Simulador de créditos</h3>
+              <p>
+                Simulador que genera una tabla de amortización mes a mes e integra consulta de clima con una API externa.
+              </p>
+              <div class="tech-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://nidiaardila.github.io/simulador-creditos/" target="_blank" class="btn btn-primary rounded-pill">
+                  <i class="bi bi-box-arrow-up-right me-2"></i>Demo
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Star Wars -->
+        <div class="col-md-6 col-lg-4">
+          <article class="project-card h-100">
+            <div class="project-image-wrapper">
+              <img src="./images/star_wars.png" class="project-image" alt="Explorador de Star Wars" />
+            </div>
+            <div class="project-content">
+              <div class="project-icon"><i class="bi bi-stars"></i></div>
+              <h3>Explorador de Star Wars</h3>
+              <p>
+                Aplicación que consume una API de Star Wars para mostrar personajes por rangos usando Fetch API y generadores.
+              </p>
+              <div class="tech-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>SweetAlert2</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://nidiaardila.github.io/star-wars-API/" target="_blank" class="btn btn-primary rounded-pill">
+                  <i class="bi bi-box-arrow-up-right me-2"></i>Demo
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Gifs Angular -->
+        <div class="col-md-6 col-lg-4">
+          <article class="project-card h-100">
+            <div class="project-image-wrapper code-project-image">
+              <img src="./images/heroe.jpg" class="project-image" alt="Gifs Angular" />
+            </div>
+            <div class="project-content">
+              <div class="project-icon"><i class="bi bi-images"></i></div>
+              <h3>Gifs Angular</h3>
+              <p>
+                Aplicación en Angular 20 para buscar y mostrar GIFs usando la API de Giphy, componentes standalone y Signals.
+              </p>
+              <div class="tech-list">
+                <span>Angular 20</span>
+                <span>TypeScript</span>
+                <span>Signals</span>
+                <span>Tailwind</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/nidiaardila/gifs-angular" target="_blank" class="btn btn-outline-light rounded-pill">
+                  <i class="bi bi-github me-2"></i>Código
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Cuppon -->
+        <div class="col-md-6 col-lg-4">
+          <article class="project-card h-100">
+            <div class="project-image-wrapper">
+              <img src="./images/cuppon.png" class="project-image" alt="Cuppon Bootstrap" />
+            </div>
+            <div class="project-content">
+              <div class="project-icon"><i class="bi bi-tags"></i></div>
+              <h3>Cuppon</h3>
+              <p>
+                Landing page inspirada en Groupon, creada con Bootstrap 5, grillas responsive, cards, navbar y formularios.
+              </p>
+              <div class="tech-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Bootstrap 5</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://nidiaardila.github.io/cuppon-bootstrap/" target="_blank" class="btn btn-primary rounded-pill">
+                  <i class="bi bi-box-arrow-up-right me-2"></i>Demo
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section-padding skills-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-pill mx-auto">
+          <i class="bi bi-lightning-charge"></i>
+          Skills
+        </span>
+        <h2 class="section-title mt-3">Tecnologías y herramientas</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card"><i class="bi bi-filetype-html"></i><span>HTML</span></div>
+        <div class="skill-card"><i class="bi bi-filetype-css"></i><span>CSS</span></div>
+        <div class="skill-card"><i class="bi bi-filetype-js"></i><span>JavaScript</span></div>
+        <div class="skill-card"><i class="bi bi-code-slash"></i><span>TypeScript</span></div>
+        <div class="skill-card"><i class="bi bi-lightning-charge"></i><span>Angular</span></div>
+        <div class="skill-card"><i class="bi bi-layers"></i><span>Angular Material</span></div>
+        <div class="skill-card"><i class="bi bi-bootstrap"></i><span>Bootstrap</span></div>
+        <div class="skill-card"><i class="bi bi-git"></i><span>Git</span></div>
+        <div class="skill-card"><i class="bi bi-terminal"></i><span>Node.js</span></div>
+        <div class="skill-card"><i class="bi bi-database"></i><span>PostgreSQL</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section-padding contact-section">
+    <div class="container">
+      <div class="contact-card text-center">
+        <span class="section-pill mx-auto">
+          <i class="bi bi-chat-dots"></i>
+          Contacto
+        </span>
+        <h2 class="section-title mt-3">Trabajemos juntos</h2>
+        <p class="section-description mx-auto">
+          Puedes encontrarme en GitHub, LinkedIn o enviarme un correo directamente.
+        </p>
+
+        <div class="contact-links">
+          <a href="https://github.com/nidiaardila" target="_blank" aria-label="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/nidia-ardila/" target="_blank" aria-label="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="mailto:nidia.ardila@hotmail.com" aria-label="Email">
+            <i class="bi bi-envelope"></i>
+          </a>
+          <a href="#" aria-label="CV">
+            <i class="bi bi-file-earmark-person"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <p class="mb-0">© 2026 - Nidia Ardila | Portfolio Web</p>
+      <p class="mb-0 footer-tech">Angular · JavaScript · APIs REST · Diseño Responsive</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
