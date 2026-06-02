@@ -1,18 +1,21 @@
-Portafolio Nidia Ardila - Versión mejorada
+# Portfolio web | Nidia
 
-Archivos incluidos:
-- index.html
-- style.css
-- script.js
-- images/
+Este es mi portfolio web personal, donde presento algunos de los proyectos que he desarrollado durante mi proceso de aprendizaje y práctica en desarrollo web.
 
-Notas:
-1. Abre index.html en el navegador para revisar el diseño.
-2. Revisa los enlaces del proyecto World Explorer:
-   - https://nidiaardila.github.io/world-explorer/
-   - https://github.com/nidiaardila/world-explorer
-   Si tus URLs reales son diferentes, cámbialas en index.html.
-3. Puedes copiar estos archivos a tu repositorio mi-portafolio y subirlos a GitHub Pages.
+En estos proyectos he trabajado con tecnologías como HTML, CSS, Bootstrap, Angular, Angular Material, TypeScript, JavaScript y Node.js, aplicando diseño responsive, componentes reutilizables, organización visual, formularios e interfaces modernas.
 
+## Tecnologías utilizadas
 
-Actualización: las cards de proyectos quedaron normalizadas con el mismo tamaño visual. Para agregar un nuevo proyecto, copia un bloque de card dentro de .projects-grid y pégalo al inicio; las demás cards bajarán automáticamente.
+- HTML5
+- CSS3
+- Bootstrap
+- Angular
+- Angular Material
+- TypeScript
+- JavaScript
+- Node.js
+- Git y GitHub
+
+## Objetivo
+
+El objetivo de este portfolio es mostrar mi evolución como desarrolladora web, reunir mis proyectos personales y presentar de forma clara las tecnologías que he utilizado en cada uno de ellos.
